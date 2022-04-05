@@ -2,7 +2,7 @@
 HTML*********************************
 *************************************
 
-Link the style sheet to the html file 
+Link the style sheet to the html file
 in the head tag as in the sample below.
 
 <!doctype html>
@@ -18,17 +18,18 @@ in the head tag as in the sample below.
  APPLY FONT FAMILY TO BODY***********
 *************************************
 
-replace FONTNAME with your font name. 
+replace FONTNAME with your font name.
 Use "" if there are spaces
 
 body { font-family: FONTNAME, "FONT NAME"; }
 */
 
-body { 
-    font-family: 
-    "Rounded Mplus 1c", 
-    "Rounded Mplus 1c Heavy", 
-    "Spicy Rice"; 
+body {
+    font-family:
+    "Passero One",
+    "Rounded Mplus 1c",
+    "Rounded Mplus 1c Heavy",
+    "Spicy Rice";
 }
 
 
@@ -38,9 +39,9 @@ LINK THE FONT************************
 
 Change .eot to the correct format type and change FILENAME.
 
-@font-face { 
-    font-family: "FONT NAME"; 
-    src: url('FILENAME.eot') 
+@font-face {
+    font-family: "FONT NAME";
+    src: url('FILENAME.eot')
     format('embedded-opentype'), <= .oet
     format('woff'),              <= .woff
     format('woff2'),             <= .woff2
@@ -48,23 +49,24 @@ Change .eot to the correct format type and change FILENAME.
 }
 */
 
-@font-face { 
-    font-family: "Rounded Mplus 1c"; 
+@font-face {
+    font-family: "Rounded Mplus 1c";
     src: url('MPLUSRounded1c-Regular.ttf')
     format('truetype');
 }
-@font-face { 
-    font-family: "Rounded Mplus 1c Heavy"; 
-    src: url('MPLUSRounded1c-ExtraBold.ttf') 
+@font-face {
+    font-family: "Rounded Mplus 1c Heavy";
+    src: url('MPLUSRounded1c-ExtraBold.ttf')
     format('truetype');
     font-weight: bold;
 }
-@font-face { 
-    font-family: "Spicy Rice"; 
-    src: url('SpicyRice-Regular.ttf') 
+@font-face {
+    font-family: "Spicy Rice";
+    src: url('SpicyRice-Regular.ttf')
     format('truetype');
 }
-
-
-
-
+@font-face {
+    font-family: "Passero One";
+    src: url('Passero One regular.ttf')
+    format('truetype');
+}
